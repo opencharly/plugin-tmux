@@ -1,5 +1,7 @@
+version: 2026.232.0520
 plugin-tmux:
     candy:
+        version: 2026.199.1330
         description: |-
             Generic typed terminal and terminal-agent runtime backed by tmux
             control mode. Each run owns an isolated socket; literal input,
