@@ -40,9 +40,9 @@ See `/charly-automation:tmux` for the full terminal/agent session surface.
 ## Related
 
 - Owning skill: `/charly-automation:tmux` — the typed terminal and
-  terminal-agent session surface. This candy carries no `skill:` entity of its
-  own; the gap is tracked in
-  [opencharly/opencharly#291](https://github.com/opencharly/opencharly/issues/291).
+  terminal-agent session surface, projected from this candy's own `skill:`
+  entity (`terminal:tmux` + `agent-runtime:tmux`); the body is
+  `.agents/skills/tmux/SKILL.md`.
 - `/charly-automation:agent` — the agent control plane that drives these
   terminals.
 - `/charly-internals:plugin` — the plugin/provider model.
